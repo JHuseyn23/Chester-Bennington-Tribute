@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/chester-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-and-header{
+    display: flex;
+    margin-left: 5%;
+    color: white;
+    margin-top: 30px;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.header{
+    flex: 0 0 25%;
+    font-size: 30px;
+}
+.nav-bar{
+    flex: 0 0 70%;
+    list-style-type: none;
+    background-color: rgb(105, 105, 105, 0.5);
+    padding: 10px 20px;
+}
+
+li{
+    display: inline-block;
+    justify-content: start;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+.bio-and-photo{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+}
+
+.biography{
+    color: white;
+    flex: 0 0 60%;
+    margin-left: 5%;
+}
+
+.upper{
+    font-weight: 800;
+}
+
+.photo{
+    margin-left: 50px;
+    height: 400px;
+    width: auto;
+}
+
+.respects{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(105, 105, 105, 0.5);
+    text-align: center;
+    margin: 20px 60px;
+}
